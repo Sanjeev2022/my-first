@@ -1,0 +1,19 @@
+name: Workflow2
+
+on:
+  push:
+    branches:
+      - main
+    path :
+      - '.github/workflows/Workflow2.yml'
+
+jobs:
+  print-message2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Print Hello World
+        run: echo "Hello, World"
