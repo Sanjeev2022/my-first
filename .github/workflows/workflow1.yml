@@ -5,7 +5,7 @@ on:
     branches:
       - main
     path :
-      - '.github/workflows/Workflow1.yml'
+      - '.github/workflows/workflow1.yml'
 
 jobs:
   print-message2:
