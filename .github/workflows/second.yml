@@ -1,9 +1,11 @@
-name: Test Workflow 
+name: Test_Workflow 
 
 on:
   push:
     branches:
       - main
+    path :
+      - '.github/workflows/Test_Workflow1.yml'
 
 jobs:
   print-message2:
